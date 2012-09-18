@@ -1,0 +1,18 @@
+body	{ background:lightgrey; }
+
+.b0	{position:absolute;}
+.b1	{position:absolute;background:url(img/stone.png) top left no-repeat;}
+.b2	{position:absolute;background:url(img/gold.png) top left no-repeat;}
+.b3	{position:absolute;background:url(img/trap.png) top left no-repeat;}
+
+#s_container	{ position:absolute;top:0px;bottom:0px;width:512px;left:50%;margin-left:-256px;overflow:hidden;background:black;border-left:3px solid black;border-right:3px solid black;}
+#hud			{ position:absolute;padding-top:5px;left:0px;width:512px;text-align:center;z-index:1;background:black;color:white;height:25px;z-index:3;}
+#scroll			{ position:absolute;top:0px;left:0px;width:512px;}
+#player			{ position:absolute;top:0px;left:0px;height:32px;width:32px;background:url(img/player.gif) top left no-repeat;}
+#message		{ position:absolute;top:50%;left:0px;padding-top:32px;padding-bottom:32px;margin-top:-64px;background:black;width:512px;color:white;text-align:center;font-size:2em;z-index:3;}
+
+#pain			{ position:absolute;top:0px;left:0px;bottom:0px;width:512px;background:#FF0000;opacity:0.5;z-index:2;}
+#heal			{ position:absolute;top:0px;left:0px;bottom:0px;width:512px;background:#00FF00;opacity:0.5;z-index:2;}
+
+#left			{ position:absolute;left:5px;bottom:5px;border-radius:50px;opacity:0.5;width:220px;height:220px;background:url(img/left.png) center center no-repeat grey;}
+#right			{ position:absolute;right:5px;bottom:5px;border-radius:50px;opacity:0.5;width:220px;height:220px;background:url(img/right.png) center center no-repeat grey;}
